@@ -5,6 +5,7 @@ import CardColumns from 'react-bootstrap/CardColumns';
 
 
 class Main extends React.Component {
+
   render() {
     return (
       <div>
@@ -18,7 +19,8 @@ class Main extends React.Component {
                   title={carta.title}
                   description={carta.description}
                   keyword={carta.keyword}
-                  horns={'1'} />
+                  horns={'1'}
+                  showDataBeast = {this.props.showDataBeast} />
               );
             })
           }
