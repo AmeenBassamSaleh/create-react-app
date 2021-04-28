@@ -13,6 +13,7 @@ class Main extends React.Component {
             array.map((carta) => {
               return (
                 <HornedBeast
+                  key = {carta.title}
                   url={carta.image_url}
                   title={carta.title}
                   description={carta.description}
