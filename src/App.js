@@ -2,8 +2,9 @@ import React from 'react';
 import array from './component/array';
 import Header from './component/header';
 import Footer from './component/footer';
-import Main from './component/main';
 import SelectedBeast from './component/SelectedBeast';
+import Main from './component/main';
+
 
 class App extends React.Component {
 

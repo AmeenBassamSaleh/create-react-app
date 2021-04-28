@@ -3,13 +3,10 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Modal from 'react-bootstrap/Modal';
 
 class SelectedBeast extends React.Component {
 
-
-
-  render() {
+  render() { // this.props data from the app.js and log an opj, ameen the name of the array in app.js , the titel from the main.
     return (
       <div className='focused'>
         <Modal show={this.props.show} onHide={this.props.closing} >

@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 
 class HornedBeast extends React.Component {
 
@@ -19,8 +18,6 @@ class HornedBeast extends React.Component {
     this.props.showDataBeast(this.props); // this.props this the data from onClike img line 29
     this.setState({ numOfClike: this.state.numOfClike + 1 });
   }
-
-  // {this.props.showDataBeast} onClick={this.sumNumperOfClike}
 
   render() {
     return (

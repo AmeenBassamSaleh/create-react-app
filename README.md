@@ -1,3 +1,14 @@
+
+# Number and name of feature: Feature #1: Display a Modal
+
+Estimate of time needed to complete: 4 h
+
+Start time: 3 pm
+
+Finish time: 12 am
+
+Actual time needed to complete: 9 h
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
